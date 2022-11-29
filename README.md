@@ -4,15 +4,14 @@ It is a manual of code implementing so that you can use the open source of the p
 
 <br/>
 
-### Download the source code.
+### Download the source code
 I've only cloned the necessary parts of GitHub. Clone this repo.
-
-Original GitHub link: <https://github.com/PRBonn/LiDAR-MOS>
-
 Proceed git clone or use git bash command.
 ```
-git clone https://github.com/PRBonn/LiDAR-MOS.git
+git clone https://github.com/Baekhyunjung/AW_SW.git
 ```
+Original GitHub link: <https://github.com/PRBonn/LiDAR-MOS>
+
 <br/>
 
 ### Prepare training data
