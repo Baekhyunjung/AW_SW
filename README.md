@@ -58,6 +58,14 @@ Start the training.
 <br/>
 
 ### Evaluation
+We call the moving (dynamic) status as **D** and the static status as **S**.
+|0|dynamic|static|
+|---|---|---|
+|dynamic|TD|FS|
+|static|FD|TS|
+
+Evaluation metric id IoU.
+
 ```
 python utils/evaluate_mos.py -d data -p data/predictions_salsanext_residual_1_valid -s valid
 ```
