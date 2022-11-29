@@ -64,8 +64,12 @@ We call the moving (dynamic) status as **D** and the static status as **S**.
 |dynamic|TD|FS|
 |static|FD|TS|
 
-Evaluation metric id IoU.
+<br/>
+Evaluation metric is IoU.
+<br/>
 
+$$ IoU_{MOS} = \frac{TD}{TD+FD+FS} $$
+<br/>
 ```
 python utils/evaluate_mos.py -d data -p data/predictions_salsanext_residual_1_valid -s valid
 ```
