@@ -81,3 +81,6 @@ python3 utils/visualize_mos.py -d data -p data/predictions_salsanext_residual_1_
 ```
 Option : **-d** is dataset path, **-p** is prediction path, **-s** is sequence number.(8 = validation set)
 Navigation : **n** is next scan, **b** is previous scan, **esc** or **q** exits.
+<br/>
+
+![그림1](https://user-images.githubusercontent.com/73575725/204459445-208cc61b-18a7-43c0-8d5a-008085a01430.png)
